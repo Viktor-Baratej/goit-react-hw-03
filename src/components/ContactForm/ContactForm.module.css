@@ -1,0 +1,43 @@
+.form_container {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.name,
+.number {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 12px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(175, 148, 106);
+
+  border-radius: 20px;
+}
+
+.error {
+  color: rgb(232, 83, 83);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 130px;
+  font-size: 18px;
+  height: 50px;
+  color: aquamarine;
+  color: black;
+  background-color: rgb(106, 130, 55);
+  &&:hover {
+    background-color: aquamarine;
+    border: none;
+  }
+}

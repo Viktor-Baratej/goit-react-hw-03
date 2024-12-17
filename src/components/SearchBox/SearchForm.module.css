@@ -1,0 +1,15 @@
+.list-body {
+}
+.text_body {
+  color: rgb(158, 13, 10);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.input_body {
+  background-color: rgb(175, 148, 106);
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+  margin-bottom: 30px;
+}
